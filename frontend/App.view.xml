@@ -1,0 +1,9 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  controllerName="App.controller">
+  <VBox class="sapUiSmallMargin">
+    <Text id="textMessage" text="Press button to load message" />
+    <Button text="Get Message" press="onGetMessage"/>
+  </VBox>
+</mvc:View>
